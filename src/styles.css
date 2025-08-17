@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --ring: 0 0% 100%; }
+html, body, #root { height: 100%; }
+body { font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
+.section-title { @apply text-3xl md:text-4xl font-extrabold tracking-tight; }
+.section-sub { @apply text-gray-400; }
