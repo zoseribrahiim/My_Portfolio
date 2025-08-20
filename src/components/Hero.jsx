@@ -74,7 +74,7 @@ export default function Hero() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.97 }}
               href="#projects"
-              className="px-5 py-3 rounded-xl bg-cyan-500 text-white font-medium"
+              className="px-5 py-3 rounded-xl bg-cyan-500 text-white font-medium z-10"
             >
               See Projects
             </motion.a>
@@ -85,7 +85,7 @@ export default function Hero() {
               href="https://drive.google.com/file/d/1aE0uereq29z2lkAp9YvlBsS1zNCNDIYa/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
-              className="px-11 py-3 rounded-xl border border-white/20"
+              className="px-11 py-3 rounded-xl border border-white/20 accordion  z-10  "
             >
               My CV
             </motion.a>
